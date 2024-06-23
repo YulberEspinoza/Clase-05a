@@ -48,4 +48,5 @@ Make sure your *main* branch is up to date with your most recent code.
   Avances del problema 5:
   ![alt text](image-4.png)
 
-  
+  Avances del programa 6:
+  ![alt text](image-5.png)
