@@ -38,3 +38,6 @@ Make sure your *main* branch is up to date with your most recent code.
 
   Avances del problema 2:
   ![alt text](image-1.png)
+
+  Avances del problema 3:
+  ![alt text](image-2.png)
