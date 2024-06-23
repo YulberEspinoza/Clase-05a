@@ -82,13 +82,12 @@ Test this function by hand in the console to get it working, and when you think 
 let testArray = [2, 3, 4]; //eslint-disable-line
 
 function sumArray(sumArr) {
-  let sum = 0; // Inicializamos la suma en cero
+  let sum = 0;
 
   for (let i = 0; i < testArray.length; i++) {
-    sum = sum + testArray[i]; // Sumamos cada elemento del arreglo
+    sum = sum + testArray[i];
   }
 
-  // Creamos la cadena de texto requerida
   const resultString =
     testArray[0] +
     "," +
@@ -120,11 +119,28 @@ Test this function by hand in the console to get it working, and when you think 
 
 // Write your code here
 function multiplyArray(multArr) {
-  //eslint-disable-line
+  let product = 1;
+
+  for (let i = 0; i < multArr.length; i++) {
+    product = multiply(product, multArr[i])[0];
+  }
+
+  const resultString =
+    "The numbers " +
+    multArr[0] +
+    "," +
+    multArr[1] +
+    "," +
+    multArr[2] +
+    " have a product of " +
+    product +
+    ".";
+
+  return [product, resultString];
 }
 
 // Here is the test for multiplyArray(); uncomment it to run it
-// testMultiplyArray(testArray);
+testMultiplyArray(testArray);
 
 // Once you get the test passing, do an a-c-p cycle and synchronize the code between GitHub and your laptop.
 
